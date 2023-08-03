@@ -1,0 +1,70 @@
+.App {
+  max-width: 350px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #FFDB58;
+  border-radius: 5px;
+  background-color:#2E5A88;
+}
+
+h1 {
+  text-align: center;
+  color: #fff;
+
+}
+
+input {
+  width: 100%;
+  padding: 3px;
+  margin-bottom: 15px;
+  background-color:#f1eded;
+  border-radius: 10px;
+}
+
+button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #FFDB58;
+  color: #0e0d0d;;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-bottom: 10px;
+
+}
+
+
+.task-box {
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 3px 8px;
+  background-color: #494845
+    
+}
+
+.task-text {
+  margin-right: 10px; /* Adjust the value as per your preference */
+}
+
+.remove-button {
+  background-color: #FFDB58;
+  color: white;
+  border: none;
+  padding: 3px 6px; 
+  cursor: pointer;
+  font-size: 12px; 
+  border-radius: 4px;
+  width: 60px;
+
+}
+
+.remove-button:hover {
+  background-color: #FFDB58;
+}
+
